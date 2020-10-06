@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulaire</title>
+</head>
+
+<body>
+    <form>
+        <fieldset class="blue">
+            <legend class="blue">votre identité</legend>
+
+            <ol>
+                <li>
+                    </label>Nom :</label>
+                    <input id=nom name=nom type=text placeholder="Nom" required autofocus>
+                </li>
+
+                <li>
+                    <label>Prénom :</label>
+                    <input id=Prénom name=Prénom type=text placeholder="Prénom">
+                </li>
+
+                <li>
+                    <label>Adresse email :</label>
+                    <input id="Adresse email" name=Adresseemail type=text placeholder="Adresse mail">
+                </li>
+            </ol>
+        </fieldset>
+
+        <fieldset class="purple">
+            <legend class="purple">Adresse de livraison</legend>
+
+            <ol>
+                <li>
+                    </label>Adresse :</label>
+                    <textarea rows="5" cols="20"></textarea>
+                </li>
+
+                <li>
+                    <label>Code postale :</label>
+                    <input id=Code postale name=Code postale type=text placeholder="Code postale">
+                </li>
+
+                <li>
+                    <label>Ville :</label>
+                    <input id="Ville" name=Ville type=text placeholder="Ville">
+                </li>
+            </ol>
+        </fieldset>
+
+        <fieldset class="pink">
+            <legend class="pink">Informations de reglement</legend>
+
+            <ol>
+                <li>
+                    </label>Type de carte bancaire :</label>
+                    <input id=Type de carte bancaire name=Type de carte bancaire type=text
+                        placeholder="Type de carte bancaire" required autofocus>
+                </li>
+
+                
+                    <input id=visa name=type_de_carte type=radio>
+                    <label for=visa>VISA</label>
+                
+                    
+                    <div>                
+                    <input id=mastercard name=type_de_carte type=radio>
+                    <label for=mastercard>Mastercard</label>
+                    </div>
+            
+
+
+             <li>
+                <label>Numéro de carte :</label>
+                <input id=Numéro de carte postale name=Numéro de carte type=text placeholder="Numéro de carte">
+             </li>
+
+             <li>
+                <label>Code de sécurité :</label>
+                <input id="Code de sécurité" name=Code de sécurité type=text placeholder="Code de sécurité">
+             </li>
+             <li>
+                <label>Nom du titulaire:</label>
+                <input id="Nom du titulaire" name=Nom du titulaire type=text placeholder="Nom du titulaire">
+            </li>
+            </ol>
+
+
+        </fieldset>
+        <input type="submit" value="j'achète">
+    </form>
+
+
+</body>
+
+</html>
