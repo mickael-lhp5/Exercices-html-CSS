@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header
+{
+    height: 5vh;
+    display: flex;
+}
+
+#bloc1
+{
+    background-color: green;
+    width: 80%;
+}
+
+#bloc2
+{
+    background-color: cornflowerblue;
+    width: 20%;
+}
+
+#contenu
+{
+    display: grid;
+    grid-template-areas: 
+    "a b "
+    "a c";
+    grid-template-columns: calc(100%/3) 1fr ;
+    grid-template-rows: 10vh 8vh;
+}
+
+#bloc3
+{
+    grid-area: a;
+    background-color: tomato;
+
+}
+
+#test
+{
+    grid-area: b;
+    background-color:orange;
+    display: flex;
+
+}
+
+#bloc4
+{
+    background-color: peru;
+    flex: 1;
+
+}
+
+#bloc5
+{
+    background-color: gray;
+    flex: 1;
+
+}
+
+#test2
+{
+    grid-area: c;
+    background-color:orange;
+    display: flex;
+
+}
+
+#bloc6
+{
+    background-color: rgb(255, 166, 0);
+    flex: 1;
+
+}
+
+#bloc7
+{
+    background-color:mediumaquamarine;
+    flex: 1;
+
+}
+
+#bloc8
+{
+    background-color:orangered;
+    flex: 1;
+
+}
+
+#bloc9
+{
+    height: 10vh;
+    display flex: ;
+
+    background-color:rgb(65, 61, 80);
+    width: 100%;
+
+}
+
